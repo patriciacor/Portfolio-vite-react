@@ -46,7 +46,7 @@ const Contact = () => {
                variants={fadeIn('left',0.3)}
                initial='hidden'
                whileInView={"show"}
-               viewport={{once:false,amount:0.3}}className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>
+               viewport={{once:false,amount:0.3}}className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start' netlify>
              <input required  type="text" placeholder='Your Name' className="bg-transparent border-b py-3 outline-none w-full 
              placeholder:text-white focus:border-accent transition-all"/>
               <input type="text" placeholder='Your Email' className="bg-transparent border-b py-3 outline-none w-full 
